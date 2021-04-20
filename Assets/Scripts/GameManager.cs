@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
     {
         if (!isGameover)
         {
-            scoreText.text += newScore;
+            score += newScore;
             scoreText.text = "Score :" + score;
         }
     }
